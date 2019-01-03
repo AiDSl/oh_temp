@@ -1,7 +1,9 @@
-'package'?
+Addition Example:
+	doing
+	if(){}
+	doing
+	
 
-#content
-#override
 
 switch=switch(1)
 
@@ -9,19 +11,6 @@ switch=switch(1)
 if('condition')
 	additional();
 	
-switch(1)
-{
-	first
-		{}
-	case()
-		{}
-	case()
-		{}
-	case()
-		{}
-	least
-		{}
-}
 
 condition AND
 condition OR
@@ -35,3 +24,14 @@ for{}{}
 
 how much flow control we need?
 drivide and conquence
+
+
+
+a action would spit to milestones and worklines
+
+	milestone is a particial goal for someting
+	worklne is a multiple way to do something
+	
+
+	
+
