@@ -1,11 +1,25 @@
+what is class?
+	class is data which could work and be worked
+	
+	override:
+		erase and set.
+	overload
+		listed and wait.
+
+
+
 #import console;
 #package basiclib
 {
+	/*
+	<!-- this should be hard coded in compiler -->
 	?void=0d;
 	?bit=1d;
-	?byte=8d*'bit';
+	?int=sizeof('environment');
+	*/
 	
-	?bool['bit'];
+	
+	?bool 'bit';
 	?char['byte'+'byte'];
 	?int[4d*'byte'];
 
@@ -29,7 +43,7 @@
 		}
 	};
 };
-</>
+<!--
 	宣告與定義
 	?物件名稱'繼承或枚舉'[資料值]{?宣告與定義區塊;}(輸入值){程式區塊;}{~return[輸出值]};
 	
@@ -51,13 +65,33 @@
 
 	'元物件'?物件名稱[元空間資料]{ ?宣告與定義區塊;}(元輸入資料){執行;}{ ~return[元輸出資料];}
 	
-	
+	basic types:
+		<permitsion>
+			0: public
+			1: protect
+			2: private
+		</permission>
+		
+		<types>
+			0: bit
+			1: function
+			
+			2: structure
+			3: enum
+			
+			4:
+			5: class
+			6: interface
+			
+			7: int
+			8: enum
+		</types>
 	
 	刪除
 	!位置'選擇器'
-</>
+-->
 
-</>
+<!--
 	問個問題，甚麼是array?
 		array是一個群組定義的連續資料塊，
 		可以從單元素的大小立即抽取相對應的資料塊。
@@ -76,7 +110,7 @@
 		定義資料時，我們會定義資料的大小，其餘方法與取值函式與資料室分開儲存的
 		存在物件時，你可以依照該物件生成物件。
 		可以操作函式內容。
-</>
+-->
 
 
 
@@ -90,6 +124,9 @@
 		
 	};
 }
+
+
+
 #package int
 {
 	?int'byte'[4d*'byte'];
