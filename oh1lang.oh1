@@ -1,0 +1,37 @@
+'package'?
+
+#content
+#override
+
+switch=switch(1)
+
+
+if('condition')
+	additional();
+	
+switch(1)
+{
+	first
+		{}
+	case()
+		{}
+	case()
+		{}
+	case()
+		{}
+	least
+		{}
+}
+
+condition AND
+condition OR
+
+case(){}
+if(){}
+for{}{}
+
+
+
+
+how much flow control we need?
+drivide and conquence

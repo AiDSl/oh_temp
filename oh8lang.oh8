@@ -1,0 +1,111 @@
+#import console;
+#package basiclib
+{
+	?void=0d;
+	?bit=1d;
+	?byte=8d*'bit';
+	
+	?bool['bit'];
+	?char['byte'+'byte'];
+	?int[4d*'byte'];
+
+	?main_funciont{?;}={?main(console:argument['char'*console.limitation]){}~return'bit'=0d;};
+};
+
+
+?text{}
+
+
+#include basiclib;
+#package name
+{
+	?'main_function'
+	{
+		?text'char'["Hello World!"];
+		~for{?i'int'=0;~return i()<12d;}
+		{
+			console:print(text['char'*i()]);
+			i[0]=i[0]+1;
+		}
+	};
+};
+</>
+	宣告與定義
+	?物件名稱'繼承或枚舉'[資料值]{?宣告與定義區塊;}(輸入值){程式區塊;}{~return[輸出值]};
+	
+	?枚舉;
+	?結構	'繼承';
+	?變數	'繼承'	[資料];
+	?介面	'繼承'			{ ?宣告;};
+	?函數	'繼承'						(輸入){程式;}{ ~return[輸出]};
+	?物件	'繼承'	[資料]	{ ?宣告;}	(輸入){程式;}{ ~return[輸出]};
+
+	public						:	{ ?宣告與定義區塊;};
+	default						:	{ ?宣告與定義區塊;};
+	protect						:	{ ?宣告與定義區塊;};
+	private						:	{ ?宣告與定義區塊;};
+	case	{ ~return[輸出值];}	:	{ ?宣告與定義區塊;};
+	static						:	{ ?宣告與定義區塊;};
+	final						:	{ ?宣告與定義區塊;};
+	public,static				:	{ ?宣告與定義區塊;};
+
+	'元物件'?物件名稱[元空間資料]{ ?宣告與定義區塊;}(元輸入資料){執行;}{ ~return[元輸出資料];}
+	
+	
+	
+	刪除
+	!位置'選擇器'
+</>
+
+</>
+	問個問題，甚麼是array?
+		array是一個群組定義的連續資料塊，
+		可以從單元素的大小立即抽取相對應的資料塊。
+	甚麼是bit資料?
+		無法被分割的最基本單位的資料格式，
+		操作的方法被定義於計算機本身
+	甚麼是byte資料?
+		一般資料型態的基本單位，由bit array資料組合而成
+	甚麼是int資料?
+		int 是最常用的資料型態。
+		
+	所以你的語言有什麼特性?
+		所有的變數、函式、介面都是物件，包含資料儲存與方法儲存。
+		'單括弧'表示帶入常數
+		指標虛擬化，所有的變數都含有其指標變數，
+		定義資料時，我們會定義資料的大小，其餘方法與取值函式與資料室分開儲存的
+		存在物件時，你可以依照該物件生成物件。
+		可以操作函式內容。
+</>
+
+
+
+
+#package byte
+{
+	'interface'?public['*',4d]{};
+	'bit'?byte['8d']
+	{
+		?size('void')[]{~return ['bitmap"100"']};
+		
+	};
+}
+#package int
+{
+	?int'byte'[4d*'byte'];
+	
+
+};
+
+</></>
+
+如何輸入?
+
+
+''
+""
+()
+[]
+{}
+
+| !
