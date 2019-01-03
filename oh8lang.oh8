@@ -1,6 +1,24 @@
 what is class?
 	class is data which could work and be worked
 	
+	?: new
+	!: delete
+	=: set
+	,: merge
+	
+	<>: a thing
+	(): a number
+	[]: a number
+	{}: a function
+	
+	('a','b','\0')="ab"
+	('1','2','3','4','5')="12345"
+	
+	?data[index](size)(input_size){content_size}{return_size};
+	
+	'content' will anaysis the content and translated to a magic number
+	
+	
 	override:
 		erase and set.
 	overload
