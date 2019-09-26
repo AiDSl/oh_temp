@@ -33,5 +33,64 @@ a action would spit to milestones and worklines
 	worklne is a multiple way to do something
 	
 
-	
 
+
+def f=>*def void=>void;
+
+
+
+
+def main
+	void()
+	=>std::ostream&(std::cout<<"Hello world")
+	=>int(0)
+;
+run main();
+/*Or
+
+
+run *def main
+	void()
+	=>std::ostream&(std::cout<<"Hello world")
+	=>int(0)
+
+*/
+
+
+
+def id2pos
+	int id
+	=>*def pos tuple<2>
+	=>
+	(
+		id==0?
+			(0,0)
+		:
+			{
+			def pos tuple<2>(0,0);
+			def r int(math.floor(math.sqrt(id)));
+			def start int(squre(r + (r % 2) - 1));
+			def x int;
+			def y int;
+			int currentline_length=(id-start)%(2*r);
+			int currentline=(id-start)/(2*r);
+			switch (currentline)
+			{
+				case 3:
+					x+=currentline_length;
+					currentline_length=(2*r);
+				case 2:
+					y-=currentline_length;
+					currentline_length=(2*r);
+				case 1:
+					x-=currentline_length;
+					currentline_length=(2*r);
+				case 0:
+					y+=currentline_length;
+					//no line now
+			}
+		  
+			return (x,y);
+			}
+	)
+看來執行的語法還是需要修正，不然有點難用
