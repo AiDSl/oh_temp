@@ -1,0 +1,32 @@
+oha 
+is"oh_language assmbly"
+
+in this language,the expression you could use is limitted,
+and only when all field of program is filled ,then you could run your program.
+
+
+
+
+basic:
+
+
+
+
+//this is comment.
+/*
+this is also a comment.
+*/
+
+
+
+```
+text.push: //this line is begin of scope,latter we will get more from this
+	let labelname= //label is scope
+	{
+		data x=stack.pop();
+		data y=stack.pop();
+		data z=x+y;
+		return z;
+	}
+;
+```
